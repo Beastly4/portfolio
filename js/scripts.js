@@ -11,6 +11,11 @@ $(document).ready(function () {
     $(".header__navbar-menu").toggleClass("active");
   });
 
+  $('.header__navbar-menu--item').click(function () {
+    $(".header__menu-toggler").toggleClass("active");
+    $(".header__navbar-menu").toggleClass("active");
+  });
+
   $("a").click(function () {
     const elementClick = $(this).attr("href");
     const destination = $(elementClick).offset().top;
