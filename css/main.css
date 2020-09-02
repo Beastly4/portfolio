@@ -139,7 +139,7 @@
 }
 
 .home__content h1::after {
-  content: "Pasha!";
+  content: " Pasha!";
   -webkit-animation: textanim 10s linear infinite;
   animation: textanim 10s linear infinite;
 }
