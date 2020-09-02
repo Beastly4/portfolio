@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: "Ubuntu",sans-serif;
+  font-family: "Ubuntu", sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -25,8 +25,8 @@
   padding: 30px 0;
   top: 0;
   z-index: 999;
-  -webkit-transition: .3s linear;
-  transition: .3s linear;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
 }
 
 .header__navbar .mainer {
@@ -65,8 +65,8 @@
   background-color: #fff;
   margin: 6px 0;
   position: relative;
-  -webkit-transition: .3s linear;
-  transition: .3s linear;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
 }
 
 .header__navbar-menu a {
@@ -74,8 +74,8 @@
   font-size: 15px;
   font-weight: 500;
   margin-left: 30px;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 
 .header__navbar-menu a:hover {
@@ -148,8 +148,8 @@
   color: #fff;
   font-size: 22px;
   margin: 0 10px;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 
 .home__icons a:hover {
@@ -170,8 +170,8 @@
   border: 1px solid #48dbfb;
   padding: 14px 0;
   border-radius: 6px;
-  -webkit-transition: .2s linear;
-  transition: .2s linear;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 
 .home__buttons a:hover {
@@ -210,8 +210,8 @@
     right: -100%;
     max-width: 400px;
     padding: 80px 50px;
-    -webkit-transition: .3s linear;
-    transition: .3s linear;
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
   }
   .header__navbar-menu a {
     display: block;
@@ -273,6 +273,16 @@
   color: #fff;
 }
 
+@media screen and (max-width: 800px) {
+  .about__title {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 285px) {
   .about__title {
     font-size: 48px;
@@ -297,7 +307,27 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
+  .about__me {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 513px) {
+  .about__me {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about__me {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 350px) {
   .about__me {
     font-size: 20px;
     line-height: 30px;
@@ -481,5 +511,16 @@
   font-size: 55px;
   color: #fff;
   padding: 0 0 50px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .skills__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=main.css.map */
